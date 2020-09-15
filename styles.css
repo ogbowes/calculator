@@ -14,10 +14,20 @@ body {
 #display {
 	display: flex;
 	flex-wrap: nowrap;
-	font-size: 8em;
+	font-size: 5em;
 	height: 10rem;
 	width: 100vw;
 	overflow: hidden;
+	justify-content: center;
+}
+
+#result {
+	display: inline-block;
+	width: calc(100vw - 7em);
+	overflow-wrap: break-word;
+	flex-grow: 2;
+	margin: 0;
+	align-self: center;
 }
 
 #clear {
